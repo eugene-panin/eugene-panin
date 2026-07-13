@@ -21,6 +21,10 @@ but needs a dependable technical decision before promising a scope.
 - [**Odoo Technical Audit Kit**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
   — evidence-first templates for recovery, reliability, security, and delivery
   decisions.
+- [**Odoo Operations Blueprint**](https://github.com/beavers-solutions/odoo-operations-blueprint)
+  — customer-owned Odoo operating model for recovery, releases, and security.
+- [**Odoo Integration Delivery Kit**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
+  — production patterns for Odoo integration contracts and reconciliation.
 - [**Kind Lab**](https://github.com/eugene-panin/kind-lab) — local Kubernetes
   environment with DNS and TLS automation.
 - [**Terraform HCloud K3s Cluster**](https://github.com/eugene-panin/terraform-hcloud-k3s-cluster)
