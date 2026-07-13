@@ -1,41 +1,35 @@
 # Eugene Panin
 
-## Technical Odoo delivery for systems that already run the business
+## I help when an Odoo problem needs an engineering answer
 
-I work on the engineering layer behind production Odoo: recovery, performance,
-integrations, custom delivery, release safety, and operational ownership. A
-common engagement starts when a business or Odoo partner has a real client case
-but needs a dependable technical decision before promising a scope.
+The work usually starts before a client commitment or after something has gone
+wrong: a risky upgrade, a missing restore path, an integration that has stopped
+matching records, or a partner team that needs technical help without changing
+its relationship with the client.
 
-### Focus
+I work across Odoo, PostgreSQL, infrastructure, custom delivery, and the
+automation needed to keep a production system understandable. Terraform and
+Kubernetes are useful here because they make ownership, repeatability, and
+recovery easier to prove — not because they need to appear in every project.
 
-- Odoo technical audits, recovery checks, and practical risk reduction
-- Integrations, custom modules, migrations, upgrades, and production fixes
-- Partner technical backoffice where the client relationship stays with the
-  implementation partner
-- Terraform, Kubernetes, PostgreSQL, delivery automation, and controlled
-  operations for Odoo.sh and self-managed Odoo
+## What I work on
 
-### Public proof
+- Recovery checks, technical reviews, and safer release decisions.
+- Integrations, custom modules, migrations, upgrades, and production fixes.
+- Technical backoffice work for Odoo implementation partners.
+- Customer-owned Odoo on Odoo.sh or self-managed infrastructure.
 
-- [**Odoo Technical Audit Kit**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
-  — evidence-first templates for recovery, reliability, security, and delivery
-  decisions.
-- [**Odoo Operations Blueprint**](https://github.com/beavers-solutions/odoo-operations-blueprint)
-  — customer-owned Odoo operating model for recovery, releases, and security.
-- [**Odoo Integration Delivery Kit**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
-  — production patterns for Odoo integration contracts and reconciliation.
-- [**Kind Lab**](https://github.com/eugene-panin/kind-lab) — local Kubernetes
-  environment with DNS and TLS automation.
-- [**Terraform HCloud K3s Cluster**](https://github.com/eugene-panin/terraform-hcloud-k3s-cluster)
-  — infrastructure-as-code foundation for a production-style Kubernetes setup.
+## Things you can inspect
 
-### Work with Beavers Solutions
+- [**Can you bring Odoo back when something breaks?**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
+  — practical templates for a recovery or technical-risk review.
+- [**Who owns Odoo when it stops working?**](https://github.com/beavers-solutions/odoo-operations-blueprint)
+  — the operating side of customer-owned Odoo.
+- [**What happens when an Odoo order is sent twice — or not at all?**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
+  — how an integration remains usable after the happy path.
+- [**Kind Lab**](https://github.com/eugene-panin/kind-lab) and
+  [**Terraform HCloud K3s Cluster**](https://github.com/eugene-panin/terraform-hcloud-k3s-cluster)
+  — infrastructure work behind the operational approach.
 
-[Beavers Solutions](https://beavers.solutions/services) provides technical Odoo
-services for existing systems and partner-led delivery. Bring the client case,
-current setup, or reliability concern; we will agree the evidence, access, and
-next safe technical step.
-
-- [Explore Odoo services](https://beavers.solutions/services)
-- [Discuss an Odoo case](https://beavers.solutions/services#contact)
+For Odoo technical work through [Beavers Solutions](https://beavers.solutions/services),
+[start with the actual situation](https://beavers.solutions/services#contact).
