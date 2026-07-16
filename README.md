@@ -1,41 +1,51 @@
 # Eugene Panin
 
-## Technical Odoo delivery for systems that already run the business
+## DevOps / SRE / MLOps
 
-I work on the engineering layer behind production Odoo: recovery, performance,
-integrations, custom delivery, release safety, and operational ownership. A
-common engagement starts when a business or Odoo partner has a real client case
-but needs a dependable technical decision before promising a scope.
+I build the parts of a system that have to keep working after the first deploy:
+repeatable infrastructure, safer releases, useful monitoring, and a recovery
+path that people can actually follow.
 
-### Focus
+Most of my work sits somewhere between application teams and production:
+Terraform, Kubernetes, CI/CD, observability, networking, and the day-to-day
+decisions that make a platform easier to run.
 
-- Odoo technical audits, recovery checks, and practical risk reduction
-- Integrations, custom modules, migrations, upgrades, and production fixes
-- Partner technical backoffice where the client relationship stays with the
-  implementation partner
-- Terraform, Kubernetes, PostgreSQL, delivery automation, and controlled
-  operations for Odoo.sh and self-managed Odoo
+## What I work on
 
-### Public proof
+- **Platform engineering** — infrastructure as code, Kubernetes environments,
+  delivery automation, networking, and developer-friendly deployment paths.
+- **Reliability engineering** — monitoring that leads to action, release safety,
+  incident readiness, backups, access, and operational ownership.
+- **MLOps and AI runtime** — where models run, what data can cross a boundary,
+  how inference is observed, and how a team can change or stop it safely.
 
-- [**Odoo Technical Audit Kit**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
-  — evidence-first templates for recovery, reliability, security, and delivery
-  decisions.
-- [**Odoo Operations Blueprint**](https://github.com/beavers-solutions/odoo-operations-blueprint)
-  — customer-owned Odoo operating model for recovery, releases, and security.
-- [**Odoo Integration Delivery Kit**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
-  — production patterns for Odoo integration contracts and reconciliation.
-- [**Kind Lab**](https://github.com/eugene-panin/kind-lab) — local Kubernetes
-  environment with DNS and TLS automation.
+I care less about whether a system uses a fashionable stack than whether the
+people responsible for it can understand, change, and recover it.
+
+## Work you can inspect
+
+- [**Kind Lab**](https://github.com/eugene-panin/kind-lab) — a local Kubernetes
+  environment with automated DNS and TLS.
 - [**Terraform HCloud K3s Cluster**](https://github.com/eugene-panin/terraform-hcloud-k3s-cluster)
-  — infrastructure-as-code foundation for a production-style Kubernetes setup.
+  — Terraform for a K3s cluster on Hetzner Cloud.
+- [**Terraform HCloud Network**](https://github.com/eugene-panin/terraform-hcloud-network)
+  and [**Terraform HCloud Instance**](https://github.com/eugene-panin/terraform-hcloud-instance)
+  — reusable infrastructure building blocks.
+- [**Grafana Alloy Ansible Role**](https://github.com/eugene-panin/ansible-role-grafana-alloy)
+  — deployment automation for an observability component.
+- [**Deployer image**](https://github.com/eugene-panin/deployer) — a CI/CD image
+  with Terraform and related cloud tooling.
 
-### Work with Beavers Solutions
+## Current direction
 
-[Beavers Solutions](https://beavers.solutions/services) provides technical Odoo
-services for existing systems and partner-led delivery. Bring the client case,
-current setup, or reliability concern; we will agree the evidence, access, and
-next safe technical step.
+I am putting more public work into running AI systems in production: placement
+of inference, access and data boundaries, observability, cost, and controlled
+changes. The useful question is not "can we call a model?" but "can a team run
+this reliably after it reaches production?"
 
-- [Explore Odoo services](https://beavers.solutions/services)
-- [Discuss an Odoo case](https://beavers.solutions/services#contact)
+## Applied work
+
+One applied systems vertical is [Beavers Solutions](https://github.com/beavers-solutions),
+where I work on technical delivery for Odoo. The Odoo services and their public
+reference material live there; this profile remains about the wider platform and
+reliability work.
