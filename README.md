@@ -1,47 +1,34 @@
 # Eugene Panin
 
-## DevOps / SRE / MLOps
+## Senior DevOps / SRE / Platform Engineer
 
-I build the parts of a system that have to keep working after the first deploy:
-repeatable infrastructure, safer releases, useful monitoring, and a recovery
-path that people can actually follow.
+I automate infrastructure and build the operational paths around it: repeatable
+environments, safer releases, actionable monitoring, incident diagnosis, and
+verified recovery.
 
-Most of my work sits somewhere between application teams and production:
-Terraform, Kubernetes, CI/CD, observability, networking, and the day-to-day
-decisions that make a platform easier to run.
+My core tools are Terraform/OpenTofu, Kubernetes, AWS, Hetzner Cloud, CI/CD,
+Prometheus, Grafana, Loki, Linux, networking, Python, and Bash.
 
-## What I work on
+## Runnable proof
 
-- **Platform engineering** — infrastructure as code, Kubernetes environments,
-  delivery automation, networking, and developer-friendly deployment paths.
-- **Reliability engineering** — monitoring that leads to action, release safety,
-  incident readiness, backups, access, and operational ownership.
-- **MLOps and AI runtime** — where models run, what data can cross a boundary,
-  how inference is observed, and how a team can change or stop it safely.
+| Repository | What it demonstrates | Automated verification |
+| --- | --- | --- |
+| [**Kubernetes Troubleshooting Lab**](https://github.com/eugene-panin/kubernetes-troubleshooting-lab) | Four deterministic failures covering Services, EndpointSlices, readiness probes, ports, and CrashLoop diagnosis | A real Kind cluster, failure assertions, recovery, and HTTP smoke tests |
+| [**AWS EKS Environment**](https://github.com/eugene-panin/aws-eks-environment) | A three-AZ VPC, private EKS, IAM access, Pod Identity, encrypted PostgreSQL and S3, plus explicit cost/HA trade-offs | Terraform validation and four mocked positive/negative guardrail cases |
+| [**Observability Incident Lab**](https://github.com/eugene-panin/observability-incident-lab) | Prometheus SLO alerts, Grafana, Loki, Alloy, structured logs, runbooks, and a controlled checkout failure | Break → alert and log correlation → recovery → alert clearance |
 
-I care less about whether a system uses a fashionable stack than whether the
-people responsible for it can understand, change, and recover it.
+Each repository is deliberately small enough to review, runs from documented
+commands, and distinguishes automated proof from production claims.
 
-## Work you can inspect
+## How I work
 
-- [**Kind Lab**](https://github.com/eugene-panin/kind-lab) — a local Kubernetes
-  environment with automated DNS and TLS.
-- [**Terraform HCloud K3s Cluster**](https://github.com/eugene-panin/terraform-hcloud-k3s-cluster)
-  — Terraform for a K3s cluster on Hetzner Cloud.
-- [**Terraform HCloud Network**](https://github.com/eugene-panin/terraform-hcloud-network)
-  and [**Terraform HCloud Instance**](https://github.com/eugene-panin/terraform-hcloud-instance)
-  — reusable infrastructure building blocks.
-- [**Grafana Alloy Ansible Role**](https://github.com/eugene-panin/ansible-role-grafana-alloy)
-  — deployment automation for an observability component.
-- [**Deployer image**](https://github.com/eugene-panin/deployer) — a CI/CD image
-  with Terraform and related cloud tooling.
+- automate repeatable infrastructure and delivery paths;
+- make security, availability, cost, and ownership trade-offs explicit;
+- test failure paths and recovery, not only the happy path;
+- leave diagnostics, runbooks, and rollback boundaries for the next operator.
 
-## Current direction
-
-I am putting more public work into running AI systems in production: placement
-of inference, access and data boundaries, observability, cost, and controlled
-changes. The useful question is not "can we call a model?" but "can a team run
-this reliably after it reaches production?"
+I am open to remote Senior DevOps, SRE, and Platform Engineering roles on a B2B
+basis.
 
 ## Applied work
 
