@@ -1,38 +1,34 @@
 # Eugene Panin
 
-## Senior DevOps / SRE / Platform Engineer
+## MarTech systems engineer
 
-I automate infrastructure and build the operational paths around it: repeatable
-environments, safer releases, actionable monitoring, incident diagnosis, and
-verified recovery.
+I build the technical path from lead capture to CRM: forms, webhooks,
+validation, routing, retries, and reconciliation.
 
-My core tools are Terraform/OpenTofu, Kubernetes, AWS, Hetzner Cloud, CI/CD,
-Prometheus, Grafana, Loki, Linux, networking, Python, and Bash.
+A delivery may be repeated; the CRM should still end up with one actionable
+lead and enough context to act on. When a handoff fails, the failure should be
+visible and recoverable—not become a silent gap in reporting or follow-up.
 
-## Runnable proof
+## What I work on
 
-| Repository | What it demonstrates | Automated verification |
-| --- | --- | --- |
-| [**Kubernetes Troubleshooting Lab**](https://github.com/eugene-panin/kubernetes-troubleshooting-lab) | Four deterministic failures covering Services, EndpointSlices, readiness probes, ports, and CrashLoop diagnosis | A real Kind cluster, failure assertions, recovery, and HTTP smoke tests |
-| [**AWS EKS Environment**](https://github.com/eugene-panin/aws-eks-environment) | A three-AZ VPC, private EKS, IAM access, Pod Identity, encrypted PostgreSQL and S3, plus explicit cost/HA trade-offs | Terraform validation and four mocked positive/negative guardrail cases |
-| [**Observability Incident Lab**](https://github.com/eugene-panin/observability-incident-lab) | Prometheus SLO alerts, Grafana, Loki, Alloy, structured logs, runbooks, and a controlled checkout failure | Break → alert and log correlation → recovery → alert clearance |
+- lead capture and CRM handoffs;
+- webhook and API integrations that tolerate duplicates, retries, and partial
+  outages;
+- monitoring, diagnostics, and controlled changes around marketing data flows;
+- data pipelines and automation around lead, CRM, and marketing data flows.
 
-Each repository is deliberately small enough to review, runs from documented
-commands, and distinguishes automated proof from production claims.
+## Engineering background
 
-## How I work
+Terraform/OpenTofu, Kubernetes, AWS, CI/CD, Prometheus, Grafana, Loki, Linux,
+networking, Python, and Bash.
 
-- automate repeatable infrastructure and delivery paths;
-- make security, availability, cost, and ownership trade-offs explicit;
-- test failure paths and recovery, not only the happy path;
-- leave diagnostics, runbooks, and rollback boundaries for the next operator.
+## Public engineering work
 
-I am open to remote Senior DevOps, SRE, and Platform Engineering roles on a B2B
-basis.
+| Repository | What it shows |
+| --- | --- |
+| [ETL Workbench](https://github.com/eugene-panin/etl-workbench) | A local Airflow workbench for code-defined pipelines, with optional PostgreSQL and MinIO. |
+| [Observability Incident Lab](https://github.com/eugene-panin/observability-incident-lab) | A controlled failure, alert and log correlation, recovery, and alert clearance. |
+| [AWS EKS Environment](https://github.com/eugene-panin/aws-eks-environment) | Terraform for an AWS EKS environment, with validation and guardrail cases. |
 
-## Applied work
-
-One applied systems vertical is [Beavers Solutions](https://github.com/beavers-solutions),
-where I work on technical delivery for Odoo. The Odoo services and their public
-reference material live there; this profile remains about the wider platform and
-reliability work.
+The repositories show engineering mechanics. They do not stand in for client
+results or vendor-specific MarTech claims.
