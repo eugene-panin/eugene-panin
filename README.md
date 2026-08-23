@@ -17,7 +17,3 @@ Hands-on DevOps engineer with 20+ years in infrastructure and operations. I desi
 ## Current work
 
 I work independently on automation and integration foundations for e-commerce, retail and service businesses: shaping technical approaches, connecting business systems and building the supporting services and operational tooling they need.
-
-## GitHub
-
-I use this profile as a professional contact point. I do not currently present public repositories as a portfolio of my original project work.
