@@ -14,16 +14,10 @@ Hands-on DevOps engineer with 20+ years in infrastructure and operations. I desi
 - **Operations & reliability:** Grafana, ELK, operational telemetry, incident recovery and resilient system design.
 - **Data & platform services:** PostgreSQL, MongoDB, RabbitMQ, Ceph and storage-backed workloads.
 
-## Public DevOps work
-
-| Repository | What it demonstrates |
-| --- | --- |
-| [AWS EKS Environment](https://github.com/eugene-panin/aws-eks-environment) | A tested Terraform environment for a secure, cost-aware AWS EKS setup. |
-| [Kubernetes Troubleshooting Lab](https://github.com/eugene-panin/kubernetes-troubleshooting-lab) | Reproducible Kubernetes failure scenarios and verified recovery steps. |
-| [Observability Incident Lab](https://github.com/eugene-panin/observability-incident-lab) | A lab for failure injection, alert and log correlation, recovery and alert clearance with Prometheus, Grafana, Loki and Alloy. |
-
 ## Current work
 
 I work independently on automation and integration foundations for e-commerce, retail and service businesses: shaping technical approaches, connecting business systems and building the supporting services and operational tooling they need.
 
-The public repositories above are deliberately scoped labs and engineering examples. They demonstrate implementation approaches; they are not presented as client work or production-scale claims.
+## GitHub
+
+I use this profile as a professional contact point. I do not currently present public repositories as a portfolio of my original project work.
